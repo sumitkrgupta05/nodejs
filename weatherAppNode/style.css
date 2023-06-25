@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 30px;
+  text-align: center;
+  margin-top: 8%;
+  background-color: white;
+  /* color: white; */
+  font-family: cursive;
+  font-weight: 600;
+}
+
+.fa-street-view {
+  animation: rotates 2s linear infinite alternate;
+}
+@keyframes rotates {
+  from {
+    transform: translateX(-0.3rem);
+  }
+  to {
+    transform: translateX(0.3rem);
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "mongooseb",
+  "version": "1.0.0",
+  "description": "learning mongoose as database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sumit kumar gupta",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^6.6.7",
+    "validator": "^13.7.0"
+  }
+}
